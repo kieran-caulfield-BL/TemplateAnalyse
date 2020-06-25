@@ -124,7 +124,7 @@ namespace TemplateAnalyse
             Regex regexIfCondition = new Regex("&If");
             
             Microsoft.Office.Interop.Word.Application Word97 = new Microsoft.Office.Interop.Word.Application();
-            Word97.WordBasic.DisableAutoMacros();
+            // Word97.WordBasic.DisableAutoMacros();
 
             Document doc = Word97.Documents.Open(document);
 
